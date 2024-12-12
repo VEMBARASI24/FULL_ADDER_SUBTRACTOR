@@ -38,6 +38,11 @@ Borrow out = A'Bin + A'B + BBin
 
 **Truthtable**
 
+![WhatsApp Image 2024-12-12 at 11 41 48 PM](https://github.com/user-attachments/assets/948b499c-63fd-4ed9-ae9d-a77e60dd62c1)
+FULL ADDER:
+![WhatsApp Image 2024-12-12 at 11 41 48 PM (1)](https://github.com/user-attachments/assets/a5f84a02-7f3a-4909-b0a8-57e49f607c4e)
+FULL SUBTRACTOR:
+
 **Procedure**
 
 Write the detailed procedure here
@@ -50,6 +55,7 @@ Developed by:VEMBARASI.A.R
 */
 ```
 ```
+FULL ADDER:
 module EP4(a,b,cin,sum,carry);
 input a,b,cin;
 output sum,carry;
@@ -58,6 +64,7 @@ assign carry= ( (a & b)| ( cin &(a ^ b )));
 endmodule
 ```
 ```
+FULL SUBTRACTOR:
 module EP4(a,b,bin,difference,borrow);
 input a,b,bin;
 output difference,borrow;
